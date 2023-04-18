@@ -1,0 +1,3 @@
+- TODO {{video https://www.youtube.com/watch?v=LjcreIpujhM}}
+	- {{youtube-timestamp 58}} `{{query (AND #errand (task TODO DOING))}}`
+	-
