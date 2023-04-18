@@ -9,9 +9,13 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - uses: logseq/publish-spa@main
+        with:
+          graph-directory: my-logseq-notes
+          output-directory: digital-garden
+          version: nightly
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/www/.nojekyll
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          folder: www
+          folder: digital-garden
