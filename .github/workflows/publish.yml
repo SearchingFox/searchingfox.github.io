@@ -15,3 +15,9 @@ jobs:
           version: nightly
       - name: add a nojekyll file # to make sure asset paths are correctly identified
         run: touch $GITHUB_WORKSPACE/digital-garden/.nojekyll
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: main
+          target-folder: digital-garden
+          folder: digital-garden
