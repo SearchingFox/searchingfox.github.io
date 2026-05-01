@@ -1,0 +1,41 @@
+---
+up:
+  - "[[Automatic Theorem Proving]]"
+  - "[[Dependent Type]]"
+  - "[[Haskell]]"
+  - "[[Formal Methods]]"
+  - "[[Programming Language]]"
+---
+# Agda
+- [Agda](https://old.reddit.com/r/agda/)
+- [Programming Language Foundations in Agda – Table of Contents](https://plfa.github.io/)
+    - [GitHub - plfa/plfa.github.io: An introduction to programming language theory in Agda](https://github.com/plfa/plfa.github.io/)
+- [Learn You An Agda - TOC](http://learnyouanagda.liamoc.net/toc.html)
+    - [Learn you an Agda | Hacker News](https://news.ycombinator.com/item?id=9456810)
+- [Learn You an Agda - William DeMeo](https://williamdemeo.github.io/2014/02/27/learn-you-an-agda/)
+    - [Learn You an Agda | Hacker News](https://news.ycombinator.com/item?id=8688070)
+- [A List of Tutorials — Agda 2.6.3 documentation](https://agda.readthedocs.io/en/latest/getting-started/tutorial-list.html)
+- [Agda Tutorial](https://people.inf.elte.hu/divip/AgdaTutorial/Index.html)
+- [1709.00728 Formalising Type-Logical Grammars in Agda](https://arxiv.org/abs/1709.00728)
+- [logic - Is Agda sound as a proof system? - Computer Science Stack Exchange](https://cs.stackexchange.com/questions/89611/is-agda-sound-as-a-proof-system)
+- [GitHub - agda/agda-web-semantic: Agda libraries for the semantic web](https://github.com/agda/agda-web-semantic/)
+- [GitHub - wenkokke/AutoInAgda: Proof automation – for Agda, in Agda.](https://github.com/wenkokke/AutoInAgda)
+- [Reinventing Formal Logic](https://oxij.org/note/ReinventingFormalLogic/)
+- [Wadler's Blog: Programming Language Foundations in Agda](https://wadler.blogspot.com/2018/12/programming-language-foundations-in-agda.html)
+- [Agda (Part 1): Logical Background](https://serokell.io/blog/logical-background)
+- [Agda (Part 2): Agda in a Nutshell](https://serokell.io/blog/agda-in-nutshell)
+- [logic - Formulating a dependent type system in Agda - Stack Overflow](https://stackoverflow.com/questions/54897632/formulating-a-dependent-type-system-in-agda)
+- [Free Groups in Agda – Blog – Joachim Breitner's Homepage](https://www.joachim-breitner.de/blog/552-Free_Groups_in_Agda)
+- [Work with classical logic in Agda? : agda](https://old.reddit.com/r/agda/comments/5ja552/work_with_classical_logic_in_agda/)
+- [(PDF) A Brief Overview of Agda – A Functional Language with Dependent Types](https://www.researchgate.net/publication/221302211_A_Brief_Overview_of_Agda_-_A_Functional_Language_with_Dependent_Types)
+- [Formalization of Universal Algebra in Agda - ScienceDirect](https://www.sciencedirect.com/science/article/pii/S1571066118300768)
+- [Верифицированный QuickSort на Agda / Хабр](https://habr.com/ru/post/148769/)
+- [agda-stuff/Splay.agda at master · winger/agda-stuff](https://github.com/winger/agda-stuff/blob/master/Splay.agda)
+- [agda hott - Поиск в Google](https://www.google.com/search?q=agda+hott)
+- [Learn you An Agda And Achieve Enlightenment | Lobsters](https://lobste.rs/s/cjamii/learn_you_agda_achieve_enlightenment)
+    - [Learn You An Agda - TOC](http://learnyouanagda.liamoc.net/toc.html)
+- [paolobrasolin/jekyll-agda: Use literate Agda in your Jekyll website!](https://github.com/paolobrasolin/jekyll-agda)
+- [Introduction to Homotopy Type Theory and Univalent Foundations (HoTT/UF) with Agda](https://www.cs.bham.ac.uk/~mhe/HoTT-UF-in-Agda-Lecture-Notes/index.html)
+- [The Agda implementation of Chuangjie Xu's PhD thesis](https://cj-xu.github.io/ContinuityType/)
+- https://www.cs.bham.ac.uk/~mhe/TypeTopology/index.html
+    - [martinescardo/TypeTopology: Logical manifestations of topological concepts, and other things, via the univalent point of view.](https://github.com/martinescardo/TypeTopology)
