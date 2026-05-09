@@ -3,7 +3,7 @@ name: Deploy Quartz site to GitHub Pages
 on:
   push:
     branches:
-      - v5
+      - main
  
 permissions:
   contents: read
@@ -21,6 +21,10 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Fetch all history for git info
+      - name: Copy documents and configurations
+        run: |
+          cp -v digital-garden/quartz.config.yaml quartz
+          cp -rvf digital-garden/content/* quartz/content/
       - uses: actions/setup-node@v6
         with:
           node-version: 24
@@ -45,9 +49,9 @@ jobs:
       - name: Build Quartz
         run: npx quartz build
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
-          path: public
+          path: quartz/public
  
   deploy:
     needs: build
@@ -58,4 +62,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
