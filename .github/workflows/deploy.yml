@@ -24,12 +24,15 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: 24
+          cache-dependency-path: digital-garden/package-lock.json
       - name: Install Dependencies
-        run: npm i
+        working-directory: digital-garden
+        run: npm сi --omit=dev
       - name: Install Quartz plugins
         run: npx quartz plugin install
       - name: Build Quartz
         run: npx quartz build
+        working-directory: digital-garden
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v5
         with:
