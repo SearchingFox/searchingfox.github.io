@@ -1,2 +1,3 @@
-# Hello
-I'm SearchingFox!
+---
+title: Welcome to SearchingsFox's Digital Gaden
+---
