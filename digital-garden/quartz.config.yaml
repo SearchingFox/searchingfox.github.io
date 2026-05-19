@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: searchingfox.github.io/digital-garden
+  baseUrl: searchingfox.github.io
   ignorePatterns:
     - private
     - templates
